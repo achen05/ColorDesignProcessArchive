@@ -29,6 +29,7 @@
 .nameText {
   display: inline-block;
   width: 24%;
+  height: 50px;
   border-top: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -36,8 +37,7 @@
 
 .scrollable {
         width: 24%;
-        height: 100%;
-        max-height: 760px;
+        height: 100vh;
         overflow-x: scroll;
         overflow-y: scroll;
         text-align: center;
@@ -52,4 +52,12 @@
 
 .nameTitletext {
   text-align: left;
+}
+
+.projectContainer {
+  top: 0px;
+}
+
+.projectImage {
+  width: 100%;
 }
