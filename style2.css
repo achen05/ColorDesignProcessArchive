@@ -1,3 +1,9 @@
+@font-face {
+  font-family: texgyreheros;
+  src: url("texgyreheros-regular.otf");
+
+}
+
 .topNavContainer {
   width: 100%;
   height: 48px;
@@ -13,6 +19,7 @@
   font-size: 24px;
   width: 100%;
   text-align: left;
+  font-family: texgyreheros;
 
 }
 
@@ -27,9 +34,10 @@
 }
 
 .nameText {
+  font-family: texgyreheros;
   display: inline-block;
   width: 24%;
-  height: 50px;
+  height: 56px;
   border-top: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -38,12 +46,31 @@
 .scrollable {
         width: 24%;
         height: 100vh;
+        max-height: 680px;
         overflow-x: scroll;
         overflow-y: scroll;
         text-align: center;
         display: inline-block;
         border: 1px solid black;
 }
+
+#Orin {
+}
+
+#Aldon {
+  background-color: beige ;
+  color: black;
+}
+
+#Allison {
+  background-color: black ;
+  color: white;
+}
+
+#Kim {
+background-color: grey
+}
+
 
 .nameTitleBar {
   width: 24%;
@@ -60,4 +87,16 @@
 
 .projectImage {
   width: 100%;
+}
+
+.projectText1 {
+  width: 90%;
+  font-size: 24px;
+}
+.projectText2 {
+  width: 90%;
+}
+
+.poemText {
+  width: 90%;
 }
